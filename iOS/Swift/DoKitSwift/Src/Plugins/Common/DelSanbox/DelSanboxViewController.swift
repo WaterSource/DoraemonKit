@@ -1,6 +1,6 @@
 //
 //  DoKitDelSanboxViewController.swift
-//  AFNetworking
+//  DoraemonKit-Swift
 //
 //  Created by didi on 2020/5/26.
 //
@@ -42,6 +42,10 @@ class DelSanboxViewController: BaseViewController, CellButtonDelegate {
         }) {
             
         }
+    }
+    
+    override func needBigTitleView() -> Bool {
+        return true
     }
 
 }
